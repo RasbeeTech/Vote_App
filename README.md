@@ -17,5 +17,5 @@
 ```bash
 python3 manage.py runserver
 ```  
-3. In your choice web broswer, enter the address '127.0.0.1:8000/polls'  
+3. In your choice web broswer, enter the address *'127.0.0.1:8000/polls'*  
 
