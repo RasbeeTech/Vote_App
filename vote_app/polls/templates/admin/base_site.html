@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+<!-- Copied from django's default directory -->
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Polls App (Admin)</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
